@@ -1,0 +1,23 @@
+{
+    "python.pythonPath": "C:\\Users\\xi-ko\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "jupyter.alwaysTrustNotebooks": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "workbench.editor.enablePreview": false,
+    "eslint.packageManager": "yarn",
+    "eslint.nodePath": "",
+    "eslint.trace.server": "messages",
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    
+"editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true}
+}
