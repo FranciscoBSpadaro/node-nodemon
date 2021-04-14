@@ -9,7 +9,7 @@
 ### instalar prettier , ao salvar arquivos ele vai corrigir altomaticamente o codigo seguindo os parametros do eslint ,  yarn add prettier eslint-config-prettier eslint-plugin-prettier -D  , depois so instalar a extensao do prettier , nao precisa colocar o prettier na configuraçao do eslintrc.js , na configuraçao do setting da extensão do prettier ativar a opçao require config
 ### modulos  yarn add express cors mongoose
 
-esse modulos precisa do types para o ambiemte de desenvolviento caso ao contrario nao será possivel importar os modulos 
+esse modulos precisa do types para o ambiente de desenvolvimento caso ao contrario nao será possivel importar os modulos 
 
 yarn add @types/express @types/cors @types/mongoose -D
 ### work in progress
