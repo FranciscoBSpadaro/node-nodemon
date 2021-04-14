@@ -12,5 +12,10 @@
 esse modulos precisa do types para o ambiente de desenvolvimento caso ao contrario nao será possivel importar os modulos 
 
 yarn add @types/express @types/cors @types/mongoose -D
+###  1. Pull mongo image from docker hub: docker pull mongo
+2. Run image: docker run --name my_mongo -p 27017:27017 -d mongo
+assim meu projeto node js conseguiu acessar o mongo portas acima de 1024 precisa liberar como root
+http://localhost:1024/
+http://localhost:27017/
 ### work in progress
 ### aula de https://www.youtube.com/watch?v=aTf8QTjw4RE
