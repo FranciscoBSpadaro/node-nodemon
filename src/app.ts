@@ -14,6 +14,14 @@ class app {
     }
 
     private database (): void {
-      mongoose.connect('mongodb://localhost:27017')
+      mongoose.connect('mongodb://localhost:27017/tsnode', {
+        useNewUrlParser: true
+      })
+    }
+
+    private routes (): void {
+      this.express.get('/', (req, res) => {
+        return res.send('hello word')
+      })
     }
 }
